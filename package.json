@@ -4,7 +4,7 @@
   "description": "Simple module for generating meme images using imgflip",
   "keywords": [
     "meme",
-    "imgflip",
+    "imgflip"
   ],
   "main": "index.js",
   "directories": {
