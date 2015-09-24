@@ -4,7 +4,7 @@ A simple module for generating meme images using imgflip.
 
 ## Use
 
-```nodejs
+```js
 var Imgflipper = require("imgflipper");
 
 // other code here
