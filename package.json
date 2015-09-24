@@ -2,6 +2,10 @@
   "name": "imgflipper",
   "version": "1.0.0",
   "description": "Simple module for generating meme images using imgflip",
+  "keywords": [
+    "meme",
+    "imgflip",
+  ],
   "main": "index.js",
   "directories": {
     "test": "tests"
