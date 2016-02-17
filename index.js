@@ -40,7 +40,11 @@ function Imgflipper(username, password) {
 					cb(err);
 				}
 				else {
-					body = JSON.parse(body);
+					try {
+						body = JSON.parse(body);
+					} catch (err) {
+						return cb(new Error('Imgflip did not return a json body'));
+					}
 
 					if (!body.success) {
 						cb(new Error(body.error_message));
